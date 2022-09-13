@@ -1,0 +1,31 @@
+/* road */
+.road {
+    width: 100%;
+    
+    position: relative;
+    margin-top: 100px;
+}
+.car1 {
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    margin-top: 400px;
+    margin-left: 130px;
+    animation: caranimation2 5s ease-in-out infinite  3s;
+}
+.car2 {
+    position: absolute;
+    z-index: 5;
+    width: 200px;
+    margin-top: 130px;
+    margin-left: 130px;
+   animation: caranimation 5s ease-in-out infinite  4s ;
+}
+    
+@keyframes caranimation {
+    from {left:0;}
+    to {left: 80%;}
+}
+@keyframes caranimation2 {
+    from {left:0;}
+    to {left: 80%;}
